@@ -1,0 +1,122 @@
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    overflow: hidden
+
+}
+
+a{
+    color: inherit;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.container_login{
+    background-color: var(--black);
+    width: 115rem;
+    height: 52rem;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    }
+
+
+input{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: 3px solid var(--white);
+    color: var(--white);
+    outline: 0;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: var(--white);
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 250px;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+textarea {
+    border-radius: 20px;
+    height: 400px;
+    width: 800px;
+    background-color: transparent;
+    border: 3px solid var(--white);
+    color: var(--white);
+    outline: 0;
+    padding-left: 20px;
+    resize: none; /* Impede o redimensionamento manual pelo usuário */
+    font-family: inherit; /* Usa a mesma fonte que outros elementos do documento */
+    font-size: inherit; /* Usa o mesmo tamanho de fonte que outros elementos do documento */
+    min-height: 50px; /* Altura mínima inicial */
+}
